@@ -76,7 +76,7 @@ label dream_one:
 
     "Dumb, pliant, and perfect. A baby clinging to its mother's breast."
 
-   " Untainted, unmarred." 
+    "Untainted, unmarred." 
 
     "Did her mother cradle her then? Did she sing sweet melodies as she rocked her to sleep?"
 
