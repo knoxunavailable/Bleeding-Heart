@@ -374,9 +374,9 @@ screen main_menu():
             textbutton _("Quit") action Quit(confirm=not main_menu)
 
         imagebutton:
-                   auto "mainUI/quit_%s.png"
-                    action Quit(confirm=not main_menu)
-                    xpos 110
+                auto "mainUI/quit_%s.png"
+                action Quit(confirm=not main_menu)
+                xpos 110
 
     if gui.show_name:
 
