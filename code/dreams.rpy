@@ -44,9 +44,9 @@ label dream_one:
 
     "{i}We'll always be together, won't we?{/i}"
 
-    .
-    .
-    .
+    "."
+    "."
+    "."
 
     "In her dreams, she is young again."
 
@@ -100,18 +100,19 @@ label dream_one:
 
     "She looks in the mirror and sees her mother's face: harsh lines and an icy stare."
 
-    shaky
-    "{atl=bounce~0.5} Look at me.{/atl}"
+    "Look at me."
 
-    "{atl=bounce~0.5} Look at me.{/atl}"
+    "Look at me."
 
-    "{atl=bounce~1.0}{i} LOOK AT ME! {/i}{/atl}"
+    "LOOK AT ME!"
+
+    # so the last three lines are meant to shake, i added the kinetic tags thing here but i've no clue how they work
 
     "…"
 
     "When her brother becomes the heir, it's the most logical conclusion. He's older and wiser, kind and well-mannered." 
 
-    He's the man.
+    "He's the man."
 
     "Jun's gaze has grown more discerning over the years. "
 
@@ -175,7 +176,7 @@ label dream_one:
 
     "{i}I love you.{/i}"
 
-jump day_two
+#jump day_two
 
 label dream_two
 
