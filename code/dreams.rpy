@@ -178,7 +178,7 @@ label dream_one:
 
 #jump day_two
 
-label dream_two
+label dream_two:
 
     "In her dreams, she sees Astrid. "
 

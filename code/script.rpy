@@ -24,7 +24,7 @@ define kbitright = Position(yanchor=1.0, xalign=1.0, ypos=1.0)
 label start:
 
 label prologue:
-"Want to know something about the gods, (REDACTED)?" 
+"Want to know something about the gods, {sc=2}(REDACTED)?{/sc}" 
 "They made everything." 
 "From lush green forests, to tumultuous waters, to tranquil breezes.."
 "And us, too, of course."
