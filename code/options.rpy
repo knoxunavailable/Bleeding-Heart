@@ -79,7 +79,7 @@ define config.exit_transition = dissolve
 
 ## Between screens of the game menu.
 
-define config.intra_transition = dissolve
+define config.intra_transition = None
 
 
 ## A transition that is used after a game has been loaded.
@@ -106,7 +106,7 @@ define config.end_game_transition = None
 ## After the game has started, this can be changed with the "window show",
 ## "window hide", and "window auto" statements.
 
-define config.window = "auto"
+define config.window = "show"
 
 
 ## Transitions used to show and hide the dialogue window
@@ -120,7 +120,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 17
+default preferences.text_cps = 30
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
@@ -159,6 +159,10 @@ define config.window_icon = "gui/window_icon.png"
 
 init python:
 
+    # SDK Fonts.
+    config.searchpath.append(config.renpy_base + "/sdk-fonts")
+    build.classify_renpy("sdk-fonts/**", "all")
+    build._sdk_fonts = True
     ## The following functions take file patterns. File patterns are case-
     ## insensitive, and matched against the path relative to the base directory,
     ## with and without a leading /. If multiple patterns match, the first is
@@ -207,3 +211,6 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+# Enable the console.
+define config.console = True
