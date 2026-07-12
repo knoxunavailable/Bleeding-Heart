@@ -1,12 +1,12 @@
 label dream_one:
 
     scene black
-    with None
+    with dissolve
 
-    "In her dreams, she is young again. "
+    "In her dreams, she is young again."
 
-    scene dream1_1
-    with fade
+    show dream1_1
+    with dissolve
 
     pause
     "Her face is red, her eyes are puffy, and her nose is clogged with snot. The last of a long series of unsuccessful spellcasting forays had worn her composure down until it snapped clean in half." 
@@ -60,8 +60,8 @@ label dream_one:
     "{i}We'll always be together, won't we?{/i}"
 
     "."
-    ".."
-    "..."
+    extend "."
+    extend "."
 
     scene dream1_8
     "In her dreams, she is young again."
@@ -80,8 +80,8 @@ label dream_one:
 
     scene darkness_black3
     "."
-    ".."
-    "..."
+    extend "."
+    extend "."
 
     
     "Vampires don't do well in the sun."
@@ -177,11 +177,11 @@ label dream_one:
 
     "A frankensteined masterpiece of son and daughter, boy and girl. They hold hands and play ring around the rosie while fire meets flesh and bone."
 
-    "Still, she"
+    "Still, she..."
 
-    "he"
+    "he,"
 
-    "{i}they{/i}"
+    "{i}they,{/i}"
 
     "try."
 

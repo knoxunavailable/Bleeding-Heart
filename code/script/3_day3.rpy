@@ -9,7 +9,7 @@ label day_three:
 
     "Whatever favor she had earned last night had transformed Astrid entirely, with her curiosity focusing less and less on what Jun was, but rather who. "
 
-    a "I never understood your… distaste for animal blood. "
+    a "I never understood your... distaste for animal blood. "
 
     j "You'd prefer a more flavorful steak over a bland one. I don't see how it's any different."
 
@@ -49,7 +49,7 @@ label day_three:
 
     j "It's really not that hard to achieve. They're exceedingly fragile."
 
-    a "I… did not know that, actually. Where did you hear of such elves?"
+    a "I... did not know that, actually. Where did you hear of such elves?"
 
     "Jun laughs."
 
@@ -75,17 +75,17 @@ label day_three:
 
     "She chooses the more interesting option."
 
-    a "…You could say so, yes."
+    a "...You could say so, yes."
 
     j "Aha! I knew it. "
 
     j "Seems that Highmother of yours has you loyal in more ways than one~"
 
-    a "…"
+    a "..."
 
     j "What? It was obvious. "
 
-    a "…Eat your meal."
+    a "...Eat your meal."
 
     j "Fine. I'll leave you alone."
 
@@ -105,17 +105,17 @@ label day_three:
 
     j "I mean something you do for fun even if you don't have to. Mahjong, fencing, styling your hair?"
 
-    a "…Working on the farm during my banishment was calming. Or will you be telling me that doesn't count."
+    a "...Working on the farm during my banishment was calming. Or will you be telling me that doesn't count."
 
     j "A farm! How cute. I've never really seen one, so I wouldn't know anything about it. Castles are more my style."
 
     j "Tell me what you like about it and I'll decide."
 
-    a "…The serenity, I suppose. The gentle sway of the grass, the cool breeze blowing past my face."
+    a "...The serenity, I suppose. The gentle sway of the grass, the cool breeze blowing past my face."
 
     a "The monotony of the tasks, if that makes any sense."
 
-    a "It felt… nice. As painful as it is to be away from home, to be away from Her, it was… somewhat comforting. "
+    a "It felt... nice. As painful as it is to be away from home, to be away from Her, it was... somewhat comforting. "
 
     a "To be alone, to be unbothered and not be reminded near constantly of my own blasphemy."
 
@@ -151,7 +151,7 @@ label day_three:
 
     "She can't even face her."
 
-    a "…It's time."
+    a "...It's time."
 
     "She feels her chest constrict."
 
@@ -227,7 +227,7 @@ label day_three:
 
     "She is sure that Astrid would have done more, if not for the sound of the bells ringing. "
 
-    a "…Come on. The Highmother awaits."
+    a "...Come on. The Highmother awaits."
 
 label day_three_cont:
 
@@ -253,7 +253,7 @@ label day_three_cont:
 
     "Lifting her head while caressing her cheek with her thumb, she coos, softened now that Jun's hysterics had dwindled to a solemn resignation."
 
-    a "…It's alright, Jun. "
+    a "...It's alright, Jun. "
 
     a "You don't need to fear it. I'll be there with you. "
 
@@ -329,7 +329,7 @@ label day_three_cont:
 
     "She licks her lips just to savor the taste."
 
-    "…"
+    "..."
 
     "The key isn't hard to get ahold of. The well placed bite bought Jun precious time to wrestle it away and take off her cuffs. They clatter to the ground uselessly."
 

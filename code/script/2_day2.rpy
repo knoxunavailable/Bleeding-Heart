@@ -13,17 +13,17 @@ label day_two:
 
     "Inching as close as she possibly can to the entrance to her prison, Jun indulges in the tiny morsels of entertainment she is granted."
 
-    g "Who g-{font=RUNE.ttf}(GARBLED){/font} to bring this to the prisoner!? "
+    g "Who g{font=RUNE.ttf}ive a fuh{/font} to bring this to the prisoner!? "
 
-    a "She- {font=RUNE.ttf}(GARBLED){/font}hought it best to take initiative-"
+    a "She {font=RUNE.ttf}rio janeiro l{/font}hought it best to take initiative-"
 
-    g "You mutts are all the same. No wonder w{font=RUNE.ttf}(GARBLED){/font}"
+    g "You mutts are all the same. No wonder w{font=RUNE.ttf}yo shoes raggedy{/font}"
 
     g "You've already brought the damned thing here. Give it to her, but I don't want a repeat of this. You don't wish for the Highmother to hear of your disobedience, do you?"
 
-    a "…No, sir."
+    a "...No, sir."
 
-    g "…I'm excited to watch{font=RUNE.ttf}(GARBLED){/font} It'd be good for the village not to worry about fre--{font=RUNE.ttf}(GARBLED){/font}"
+    g "...I'm excited to watch{font=RUNE.ttf}fortnite{/font} It'd be good for the village not to worry about fre{font=RUNE.ttf}edom dive{/font}"
 
     "The door swings open with a showmanship the large carcass unceremoniously heaved in front of her lacks. Its presentation is just as unappetizing as her meal from yesterday."
 
@@ -113,7 +113,7 @@ label day_two:
 
 label day_two_cont:
 
-    a "AGH..!!"
+    a "AGH...!!"
 
     "As it turned out, peace was a little too much to ask for."
 
@@ -139,7 +139,7 @@ label day_two_cont:
 
     "Her stomach twists with discomfort."
 
-    j "..W-Well? Spit it out. I'm not exactly busy."
+    j "...W-Well? Spit it out. I'm not exactly busy."
 
     "Astrid turns her body to face Jun, tense as she purses her lips."
 
@@ -149,7 +149,7 @@ label day_two_cont:
 
     "The girl's ears actually pinned back like a sad puppy, making Jun feel a twinge of guilt. Sighing, she tries again."
 
-    j "..It's alright. There's nothing you can do about it now."
+    j "...It's alright. There's nothing you can do about it now."
 
     j "Anyway. It should be obvious, but.. I've never seen you like this. What's gotten you so out of sorts?"
 
@@ -159,15 +159,15 @@ label day_two_cont:
 
     "She gestures to her ears, a bit irritated that she needed to spell it out in the first place. For all the tall tales humans made about the other unnatural beasts which walked their precious earth, many knew surprisingly little."
 
-    a "…"
+    a "..."
 
-    a "…"
+    a "..."
 
     "For some odd reason, the silence combined with Astrid's more innocuous disposition flusters her. It felt like kicking a baby."
 
-    j "..I'm not that self-absorbed. I can listen when it's necessary."
+    j "...I'm not that self-absorbed. I can listen when it's necessary."
 
-    a "…Do you ever think there are some sins that shouldn't be forgiven?"
+    a "...Do you ever think there are some sins that shouldn't be forgiven?"
 
     "What a weird thing to say."
 
@@ -177,11 +177,11 @@ label day_two_cont:
 
     j "What did you do? Murder? Theft?"
 
-    a "…I still remember her face."
+    a "...I still remember her face."
 
     "She visibly swallows. Shame washes over her, practically forcing her to look away."
 
-    "…"
+    "..."
 
     a "It was a few years ago. "
 
@@ -193,11 +193,11 @@ label day_two_cont:
 
     "Astrid takes a long breath."
 
-    a "When the day came… it was a bloodbath."
+    a "When the day came... it was a bloodbath."
 
     a "Bodies strewn across the camp, their huts and farms burnt until unrecognizable. I saw one of our own pierce the head of a wolfkin and parade it around like a stage prop."
 
-    a "…I remember first meeting her. She was a mother of 3."
+    a "...I remember first meeting her. She was a mother of 3."
 
     a "I remember being told to hunt down the child who ran out into the woods to warn other tribes near the area. "
 
@@ -207,9 +207,9 @@ label day_two_cont:
 
     a "She had backed up into the base of a pine. The only way out was through the sharp end of my spear. I was supposed to finish the job, supposed to fulfill my duty, but.."
 
-    a "…seeing her small, weak frame tremble, seeing the tears travel down her cheek. Closing her eyes so, so tight, bracing for whatever lay beyond her…"
+    a "...seeing her small, weak frame tremble, seeing the tears travel down her cheek. Closing her eyes so, so tight, bracing for whatever lay beyond her..."
 
-    a "…I couldn't bring myself to."
+    a "...I couldn't bring myself to."
 
     a "A hunter followed me into the brush and saw the whole affair. I was proven not worthy to walk amongst my fellow followers, and because of this, I was excommunicated. Forced to live in the rubble of the tribe I helped demolish."
 
@@ -217,7 +217,7 @@ label day_two_cont:
 
     "She releases a weak, half-hearted laugh."
 
-    a "I know I… I shouldn't feel this way. This weakness is now a stain forever tainting my already tainted being. And-"
+    a "I know I... I shouldn't feel this way. This weakness is now a stain forever tainting my already tainted being. And-"
 
     a "I don't know if I could ever forgive myself for it."
 
@@ -277,13 +277,13 @@ label day_two_cont:
 
     j "Helps take some sins off of my back, too, doesn't it?"
 
-    j "Does that put me in favor with your.. what was it… Highmother?"
+    j "Does that put me in favor with your.. what was it... Highmother?"
 
     j "You're welcome, by the- "
 
     j "Mmpf!"
 
-    "# Kiss CG"
+    # Kiss CG
 
     "In the seconds Jun had taken her eyes off of her to gloat, Astrid's lips locked with hers, and all of the upper hand she thought she had on the situation flew right out the window. "
 
@@ -295,11 +295,11 @@ label day_two_cont:
 
     "Before she can let it overwhelm her, she shoves Astrid off, letting her puzzled expression speak for itself and prompt elaboration."
 
-    a "…A token. Of gratitude. It is a reward the Highmother gives to those who have done good deeds."
+    a "...A token. Of gratitude. It is a reward the Highmother gives to those who have done good deeds."
 
     "Her fluency and command over language is nowhere to be seen. She sputters out something incomprehensible even to her own understanding."
 
-    a "…Your lips are drier than I expected."
+    a "...Your lips are drier than I expected."
 
     "?!??!!"
 
@@ -317,7 +317,7 @@ label day_two_cont:
 
     a "But you hold no feelings for me that way."
 
-    j "That's not the- "
+    j "That's not the-"
 
     j "Ugh! "
 
@@ -329,7 +329,7 @@ label day_two_cont:
 
     "The quiet settles in. "
 
-    "…"
+    "..."
 
     "A rustle, and then a barely audible phrase, echoed robotically at the end of a perceived transaction. Words said more to oneself than anyone else."
 

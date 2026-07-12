@@ -1,8 +1,9 @@
 ﻿label day_one:
-    
-    scene bgdungeon
-    with fade
 
+    scene bgdungeon
+    with dissolve
+
+    window show
     "If she could describe the cell with one word, it would be this: suffocating." 
 
     "For one, the enchantments, whispered by shaky lips, which weaved themselves into every crack and crevice of the cement, flowed over rusty iron bars, and seeped into compact cuffs, were cloyingly sweet."
@@ -35,13 +36,14 @@
 
     "Her ears perk up as the warden speaks for the first time today, voice gruff, unyielding, and with a simple message."
 
-    show astrid idle at kbitright
-    show junyue idle at kbitleft 
-    y "Here." 
+    show astrid idle neutral at right
+    show junyue idle at left
+    y @ talk "Here." 
 
+    show astrid neutral
     "Thrown haphazardly between the bars, a small, mangy rat twitched and squirmed on the floor. Like her, it was fighting to survive, legs frantically scurrying in the air in an attempt to prop itself upright." 
 
-    y "Your meal for the day. Eat up."
+    y @ talk "Your meal for the day. Eat up."
 
     "Unlike her, it was pathetic."
 
@@ -49,11 +51,11 @@
 
     j "This-- this is no meal! This barely counts as a {i}morsel!{/i} I am {i}not{/i} going to eat that."
 
-    y "Whether you eat it or not is not my prerogative, {i}monster.{/i} You asked for something living. I have given you something living."
+    y @ talk "Whether you eat it or not is not my prerogative, {i}monster.{/i} You asked for something living. I have given you something living."
 
     j "...I have a name."
 
-    y "I am aware. You've made it very memorable over our first few encounters."  
+    y @ talk "I am aware. You've made it very memorable over our first few encounters."  
 
     j "And you'd better not forget it. That's Jun Yue, {i}rightful heir{/i} of the Yue bloodline to you."
 
@@ -63,9 +65,9 @@
 
     "Her throat, perhaps?"
 
-    y "Don't {i}speak{/i} as if there is any glory held by your clan, {i}monster.{/i}"
+    y @ talk "Don't {i}speak{/i} as if there is any glory held by your clan, {i}monster.{/i}"
 
-    y "Your 'bloodline' consists of the blasphemous and the undesired. Tens of our people had their souls rendered stained by you and the rest of your accursed family."
+    y @ talk "Your 'bloodline' consists of the blasphemous and the undesired. Tens of our people had their souls rendered stained by you and the rest of your accursed family."
 
     "Her hold on the iron tightens, each word spoken dripping with pure disgust."
 
@@ -73,7 +75,7 @@
 
     j "They're always arranging afterlifes and whatnot for loyal followers."
 
-    y "Call me a 'mutt' again, and I'll make it incapable for you to speak, {i}monster.{/i}"
+    y @ talk "Call me a 'mutt' again, and I'll make it incapable for you to speak, {i}monster.{/i}"
 
     "Jun rolls her eyes, leaning back against the wall and scoffing."
 
@@ -81,7 +83,7 @@
 
     "To her delight, her captor bristles."
 
-    y "{i}Hold your tongue, wench, or I'll do it for you.{/i}"
+    y @ talk "{i}Hold your tongue, wench, or I'll do it for you.{/i}"
 
     j "Do you blame birds for eating worms? Everything alive is part of the food chain. The strong live on in a world where the weak are doomed to die. In exchange, their victims get peace."
 
