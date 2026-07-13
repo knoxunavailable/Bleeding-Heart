@@ -13,7 +13,7 @@ label day_two:
 
     "Inching as close as she possibly can to the entrance to her prison, Jun indulges in the tiny morsels of entertainment she is granted."
 
-    g "Who g{font=RUNE.ttf}ive a fuh{/font} to bring this to the prisoner!? "
+    g "Who g{font=RUNE.ttf}{sc=[2]}{i}ive a fuh{/i}{/sc}{/font} to bring this to the prisoner!? "
 
     a "She {font=RUNE.ttf}rio janeiro l{/font}hought it best to take initiative-"
 
@@ -37,10 +37,12 @@ label day_two:
 
     "At the same time, she could relish in company she was so picky with she often chose to do without."
 
-    "If she held that image for long enough, she thought, she might delude herself so completely that the taste of an emaciated creature's body would morph into that of a much healthier, richer blood. Perfectly cooked and prepared. "
+    "If she held that image for long enough, she thought, she might delude herself so completely that the taste of an emaciated creature's body would morph into that of a much healthier, richer blood. Perfectly cooked and prepared."
 
-    "She salivated at the thought."                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 "..Not that it mattered much. Jun wasn't foolish enough to believe the ‘gift' of a slightly more bountiful breakfast was anything more than fattening her up like a lamb to the slaughter. "
+    "She salivated at the thought."
 
+    "..Not that it mattered much. Jun wasn't foolish enough to believe the 'gift' of a slightly more bountiful breakfast was anything more than fattening her up like a lamb to the slaughter. "
+    
     "Though any discussions of her fate were dutifully kept away from her, she quickly intuited their true intentions by connecting them to things vampires had done in the past."
 
     "The poorer, less savvy ones stuck to animals to live day by day. Humans, in the more recent years, became a delicacy that only the elite could freely indulge in whenever they pleased."
@@ -175,7 +177,7 @@ label day_two_cont:
 
     "Jun decides to humor her."
 
-    j "Depends what the ‘sin' is. You have weird standards."
+    j "Depends what the 'sin' is. You have weird standards."
 
     j "What did you do? Murder? Theft?"
 
@@ -249,7 +251,7 @@ label day_two_cont:
 
     "What she did know was that she fully intended to experience how it felt to be on the other end."
 
-    j "Puppy, if the gods made the mistake of putting these, um, ‘sinful' creatures on this earth, and that was a pretty big mistake, then you not killing one little brat isn't the end of the world."
+    j "Puppy, if the gods made the mistake of putting these, um, 'sinful' creatures on this earth, and that was a pretty big mistake, then you not killing one little brat isn't the end of the world."
 
     j "..But if you're still feeling conflicted.. I could give you a way to make up for it."
 
