@@ -55,6 +55,8 @@ label day_two:
 
     a "Eat."
 
+    show astrid idle neutral at topright
+    show jun idle neutral at cleft
     "Except her patience. "
 
     "Jun takes this interruption in stride, surveying the lifeless husk more closely. It was more mangled than the rat ever was, even after she'd drained it of all of its blood. It almost looked purposefully brutalized, like there was real malice behind the killing rather than just necessity."
