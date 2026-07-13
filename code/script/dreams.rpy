@@ -1,5 +1,6 @@
 label dream_one:
 
+    play music "lowhum.mp3" fadein 3.0
     scene black
     with dissolve
 
@@ -208,10 +209,16 @@ label dream_one:
 
     "{sc=[2]}{i}I love you.{/i}{/sc}"
 
+    stop music fadeout 1.0
+    scene black
+    with dissolve
+    pause 1.5
+
     jump day_two
 
 label dream_two:
 
+    play music "lowhum.mp3" fadein 3.0
     scene dream2_1 with fade
     "In her dreams, she sees Astrid. "
 
@@ -310,7 +317,12 @@ label dream_two:
     scene dream2_11
     "If Astrid reaches deep enough inside of her, will it be love?"
 
+    stop music fadeout 3.0
+
     scene darkness_black4
     "Yes, this will do just fine."
-
+    
+    scene black
+    with dissolve
+    
     jump day_three

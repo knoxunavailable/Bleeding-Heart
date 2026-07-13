@@ -1,10 +1,10 @@
 label start:
-
     window auto False
     window show
 
     scene black
     with None
+    play music "lowhum.mp3" fadein 2.0
 
     "Want to know something about the gods, (REDACTED)?"
 
@@ -43,5 +43,7 @@ label start:
     h "But worry not, my sweet child, and don't lose hope. A cursed half-breed such as yourself may just find the purity nestled within."
     
     h "All you need to do is obey."
+
+    stop music fadeout 3.0
 
 jump day_one

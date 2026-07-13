@@ -1,10 +1,14 @@
 ﻿label day_one:
+    pause 1.0
+    show prolog_day1
+    pause 4.0
 
     scene bgdungeon
     with dissolve
+    play music "audio/bgm.mp3" fadein 2.0
 
     window show
-    "If she could describe the cell with one word, it would be this: suffocating." 
+    "If she could describe the cell with one word, it would be this: suffocating."
 
     "For one, the enchantments, whispered by shaky lips, which weaved themselves into every crack and crevice of the cement, flowed over rusty iron bars, and seeped into compact cuffs, were cloyingly sweet."
 
@@ -38,8 +42,10 @@
 
     show astrid idle neutral at topright
     show jun idle neutral at cleft
+    play sound "thud_sfx.mp3" volume 0.4 noloop
     y @ talk "Here." 
 
+    play sound "rat_sfx.mp3" noloop
     scene day1
     ""
 
@@ -315,5 +321,7 @@
     scene day1_5
 
     "She reaches down and starts with its head."
+
+    stop music fadeout 1.0
 
     jump dream_one

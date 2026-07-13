@@ -1,4 +1,7 @@
 label day_two:
+    pause 1.0
+    show day1_day2
+    pause 4.0
 
     scene black
     with None
@@ -13,17 +16,28 @@ label day_two:
 
     "Inching as close as she possibly can to the entrance to her prison, Jun indulges in the tiny morsels of entertainment she is granted."
 
-    g "Who g{font=RUNE.ttf}{sc=[2]}{i}ive a fuh{/i}{/sc}{/font} to bring this to the prisoner!? "
+    g "Who g{sc=[2]}{font=RUNE.ttf}ive a fuh{/font}{/sc} to bring this to the prisoner!? "
 
-    a "She {font=RUNE.ttf}rio janeiro l{/font}hought it best to take initiative-"
+    a "She was wasting away. The Highmother still needs her- I{sc=[2]}{font=RUNE.ttf}rio janeiro l{/font}{/sc}hought it best to take initiative-"
 
-    g "You mutts are all the same. No wonder w{font=RUNE.ttf}yo shoes raggedy{/font}"
+    g "You freaks are all the same. Couldn't even stab the bi{sc=[2]}{font=RUNE.ttf}yo shoes raggedy{/font}{/sc}to do. Useless fucking--"
 
-    g "You've already brought the damned thing here. Give it to her, but I don't want a repeat of this. You don't wish for the Highmother to hear of your disobedience, do you?"
+    g "Ugh. Whatever. You've already brought the damned thing here. Just give it to her, but if this happens again, it's {i}your ass.{/i}"
+    
+    g "You don't wish for {i}mommy{/i} to hear you've been naughty, do you?"
 
-    a "...No, sir."
+    a "{cps=2}...{/cps}{sc=[2]}No.{/sc}" 
+    
+    g "No {i}what?{/i}"
 
-    g "...I'm excited to watch{font=RUNE.ttf}fortnite{/font} It'd be good for the village not to worry about fre{font=RUNE.ttf}edom dive{/font}"
+    a "{cps=2}...{/cps}{sc=[2]}sir.{/sc}"
+
+    g "...Good girl."
+    
+    g "Be grateful it's not you in that cage, {i}mutt.{/i} If the Highmother wasn't into f{sc=[2]}{font=RUNE.ttf}fortnite balls i'm gay{/font}{/sc}ass, your head would be on a fucking {i}pike.{/i}"
+
+    scene bgdungeon
+    play music "audio/bgm.mp3" fadein 2.0
 
     "The door swings open with a showmanship the large carcass unceremoniously heaved in front of her lacks. Its presentation is just as unappetizing as her meal from yesterday."
 
@@ -55,11 +69,14 @@ label day_two:
 
     "In a sick twist of her story, she was now in that unenviable position. She was just lucky enough that they weren't taking anything of substance from her yet."
 
-    a "Eat."
-
     show astrid idle neutral at topright
     show jun idle neutral at cleft
+
+    a @ talk "Eat."
+
     "Except her patience. "
+
+    scene day2_1
 
     "Jun takes this interruption in stride, surveying the lifeless husk more closely. It was more mangled than the rat ever was, even after she'd drained it of all of its blood. It almost looked purposefully brutalized, like there was real malice behind the killing rather than just necessity."
 
@@ -67,11 +84,16 @@ label day_two:
 
     "So shocking was it that, when it reared its ugly head, she was sent reeling back, truly taken aback for the first time in ages."
 
-    j "Oh my god, is that a wolf pup?"
+    scene bgdungeon
+
+    show astrid idle neutral at topright
+    show jun idle2 horrified at cleft
+
+    j "{sc=[4]}Oh my god, is that a wolf pup?{/sc}"
 
     "Astrid is unfazed. Eyes glaring down at the carcass, then back up to Jun."
 
-    a "I suggest you eat, lest you wish to stay hungry."
+    a @ talk "I suggest you eat, lest you wish to stay hungry."
 
     "The gesture of a grander feast became even more perplexing. What benefit did Astrid gain in seeing Jun eat one of her own? Did her hatred truly run so deep that it attacked indiscriminately, even to one so young?"
 
@@ -91,7 +113,7 @@ label day_two:
 
     "She grits her teeth."
 
-    "That was an ending she could not accept."
+    "That was an ending she could not accept. She {i}won't.{/i}"
 
     "She pries it apart and fashions it into a better one."
 
@@ -101,21 +123,35 @@ label day_two:
 
     "How was it fair to dedicate your whole existence to an impossible dream that ended in you as the butt of the joke? To be a jester made to spin and dance for a cruel king?"
 
+    show jun idle neutral
+
     "Her face relaxes."
 
-    j "Thank you."
+    show jun idle smug 
+
+    j "...Good girl."
+
+    show astrid ashamed neutral 
 
     "Hoisting it upwards, she finds the best area to puncture, slowly extracting while studying the complicated expression on Astrid's face."
 
+    scene black
+
     "Maybe she'd have a use for that baggage after all."
+
+    "{cps=2} {/cps}.{cps=2} {/cps}.{cps=2} {/cps}."
 
     "The rest of the day is so unremarkable that it doesn't take very long for sleep to take her. Even with her anger set ablaze, she finds herself drifting off, hoping that the realm of dreams will be more inviting."
 
-    "Astrid had long since stopped watching her. She had made a valiant effort to keep herself awake, but after an eventful day that no doubt had its fair share of physical labor attached, there was little she could do to stretch her waking hours any longer."
+    "Astrid had long since stopped watching her."
+    
+    "She had made a valiant effort to keep herself awake, but after an eventful day that no doubt had its fair share of physical labor attached, there was little she could do to stretch her waking hours any longer."
 
     "At last, Jun was following her. She would soon have her peace."
 
 label day_two_cont:
+
+    scene black 
 
     a "AGH...!!"
 
@@ -127,65 +163,110 @@ label day_two_cont:
 
     "Surprisingly, it takes her much longer than usual, and when she does, she bears witness to another unusual occurrence. "
 
+    scene day2_2
+
     "Sitting hunched on the floor, curled up with eyes darting every which way is Astrid. Her hand is clutching her chest so hard Jun is worried that any more use of her strength would cause it to cave in."
 
     "As she wheezes out another shaky breath of air, tears prickle at the corners of her eyes. With this, her stone-faced facade crumbles into nothing."
 
     "Nevertheless, Jun isn't moved. What sparse intriguing little factoids she'd been privy to about Astrid were not enough for her to care about her predicament, especially with her being a direct contributor to her oncoming doom."
 
+    scene bgdungeon
+
     "She makes to roll over and try to sleep again, but her sensitive hearing becomes the death of her. Now that she'd been awakened, even the tiniest bit of sound ripped through the lull of the night. "
 
     "Disgruntled and out of options, she presses herself up against the bars and faces Astrid, searching for something to say."
 
+    show jun idle shiteating2 at cleft
+    show astrid freakout lookdown at topright
+
     j "What's the matter with you?"
+
+    show jun idle bruh 
+    show astrid freakout lookup at topright
 
     "Astrid's gaze now rests on her. As she continues to pant, tears begin to flow freely down her cheeks, a sight Jun could've never anticipated. She grimaces."
 
     "Her stomach twists with discomfort."
 
+    show jun idle discomfort talk
+
     j "...W-Well? Spit it out. I'm not exactly busy."
+
+    show jun idle discomfort 
 
     "Astrid turns her body to face Jun, tense as she purses her lips."
 
-    a "I'm guessing I woke you."
+    show astrid idle neutral
+
+    a @ talk "I'm guessing I woke you."
+
+    show jun idle shiteating2
 
     j "What an astute observation."
 
+    show astrid ashamed neutral
+    show jun idle discomfort 
+
     "The girl's ears actually pinned back like a sad puppy, making Jun feel a twinge of guilt. Sighing, she tries again."
+
+    show jun idle discomfort talk
 
     j "...It's alright. There's nothing you can do about it now."
 
     j "Anyway. It should be obvious, but.. I've never seen you like this. What's gotten you so out of sorts?"
 
+    show astrid ashamed talk 
+
     a "It is none of your business. Go back to bed. "
+
+    show astrid ashamed neutral 
+    show jun idle talk 
 
     j "It is now. If you don't calm down, I can't go back to sleep."
 
     "She gestures to her ears, a bit irritated that she needed to spell it out in the first place. For all the tall tales humans made about the other unnatural beasts which walked their precious earth, many knew surprisingly little."
 
-    a "..."
+    a "{cps=2} {/cps}.{cps=2} {/cps}.{cps=2} {/cps}."
 
-    a "..."
+    a "{cps=2} {/cps}.{cps=2} {/cps}.{cps=2} {/cps}."
 
     "For some odd reason, the silence combined with Astrid's more innocuous disposition flusters her. It felt like kicking a baby."
 
+    show jun discomfort talk 
+
     j "...I'm not that self-absorbed. I can listen when it's necessary."
 
+    show jun discomfort
+    show astrid ashamed talk 
+
     a "...Do you ever think there are some sins that shouldn't be forgiven?"
+
+    show astrid ashamed neutral
+    show jun idle2 curious nomouth
 
     "What a weird thing to say."
 
     "Jun decides to humor her."
 
+    show jun idle shiteating2
+
     j "Depends what the 'sin' is. You have weird standards."
+    
+    show jun idle2 curious
 
     j "What did you do? Murder? Theft?"
+
+    show jun idle2 curious nomouth
+    show astrid ashamed talk
 
     a "...I still remember her face."
 
     "She visibly swallows. Shame washes over her, practically forcing her to look away."
 
     "..."
+
+    scene black 
 
     a "It was a few years ago. "
 
@@ -209,9 +290,13 @@ label day_two_cont:
 
     a "Eventually, the running ceased."
 
+    scene day2_3
+
     a "She had backed up into the base of a pine. The only way out was through the sharp end of my spear. I was supposed to finish the job, supposed to fulfill my duty, but.."
 
     a "...seeing her small, weak frame tremble, seeing the tears travel down her cheek. Closing her eyes so, so tight, bracing for whatever lay beyond her..."
+
+    scene black 
 
     a "...I couldn't bring myself to."
 
@@ -221,24 +306,38 @@ label day_two_cont:
 
     "She releases a weak, half-hearted laugh."
 
+    scene bgdungeon
+
+    show astrid ashamed talk at ccenter 
+    
+
     a "I know I... I shouldn't feel this way. This weakness is now a stain forever tainting my already tainted being. And-"
 
     a "I don't know if I could ever forgive myself for it."
 
+    show astrid ashamed neutral
+
     "A hush falls over the both of them, then-"
 
+    show jun idle laugh at cleft with easeinleft
+    show astrid shocked at topright with easeinright
     "Jun barks out a laugh."
 
     j "..That's it?"
 
-    a "You don't understand—"
+    show jun idle shiteating3
+    show astrid idle yell 
+    a "You don't understand-"
 
+    show jun idle laugh 
+    show astrid idle lookdown
     j "What's been keeping you up at night is.. not killing a child?"
-
+    show astrid ashamed neutral 
     j "A child who was no threat to you? Who'd probably be too traumatized to retaliate?"
-
+    show astrid ashamed talk
     a "I failed my mother- I failed my god. I couldn't even do what was asked of me. What higher shame is there than that?"
-
+    show jun idle bruh
+    show astrid ashamed neutral 
     "She wonders if Astrid's psyche was always as fragile as this, so easy to manipulate. "
 
     "Throughout this entire day, she had demonstrated nothing but how paper-thin her resolve could truly become when coming face-to-face with what her dogmatic world view truly demanded."
@@ -248,11 +347,12 @@ label day_two_cont:
     "And she was holding the leash."
 
     "It's in these times that her hatred for her mother wars with the dawning realization she is so much like her. Whether that was of her own volition, or ironed into her while sorting out her kinks, she didn't know."
-
+    show jun idle shiteating3
     "What she did know was that she fully intended to experience how it felt to be on the other end."
-
+    show jun idle2 tease closedeyes
     j "Puppy, if the gods made the mistake of putting these, um, 'sinful' creatures on this earth, and that was a pretty big mistake, then you not killing one little brat isn't the end of the world."
-
+    show jun idle shiteating1
+    show astrid ashamed lookside 
     j "..But if you're still feeling conflicted.. I could give you a way to make up for it."
 
     "Astrid needed help, that much was obvious. A kinder person would've given her the tools to unravel the prison she'd carved out for herself, would call out her self-flagellation disguised as duty, but Jun was no messiah. "
@@ -263,10 +363,13 @@ label day_two_cont:
 
     "Why employ her to embark on that perilous journey when it was easier to fan the flames?"
 
-    j "How does knowing how to find and infiltrate my family's castle sound?"
-
+    show jun idle2 tease closedeyes
+    j "You did say you were looking forward to 'putting my family to the same fate', did you not?"
+    show jun idle doxxing
+    j "...How does knowing the whereabouts of my family's estate sound?"
+    show astrid shocked 
     a "!"
-
+    show astrid idle lookdown 
     "Yes, this was much better."
 
     "How could she have been anything but a disappointment when she was without any backing? Endless comparisons, snide comments, and condescension masked with altruism. "
@@ -278,16 +381,14 @@ label day_two_cont:
     "She can still hear their laughter bouncing off of the walls, following her even on her final days. She'd show them."
 
     "From beyond the grave, she'd give them hell."
-
+    show jun idle2 mansplaining
     j "Helps take some sins off of my back, too, doesn't it?"
-
+    show jun idle2 curious
     j "Does that put me in favor with your.. what was it... Highmother?"
-
+    scene day2_4
     j "You're welcome, by the- "
-
+    scene day2_5
     j "Mmpf!"
-
-    # Kiss CG
 
     "In the seconds Jun had taken her eyes off of her to gloat, Astrid's lips locked with hers, and all of the upper hand she thought she had on the situation flew right out the window. "
 
@@ -297,47 +398,62 @@ label day_two_cont:
 
     "And it is sweet, so much so that it frightens her. The kind of promise it speaks of is not for her to entertain. "
 
+    scene bgdungeon
+
+    show astrid ashamed fluster at ccenter 
+    show jun idle2 shocked at ccenter
+
+    show astrid ashamed fluster at topright with easeinright 
+    show jun idle2 shocked at cleft with easeinleft
     "Before she can let it overwhelm her, she shoves Astrid off, letting her puzzled expression speak for itself and prompt elaboration."
-
+    show astrid ashamed fluster talk      
     a "...A token. Of gratitude. It is a reward the Highmother gives to those who have done good deeds."
-
+    show astrid ashamed fluster
     "Her fluency and command over language is nowhere to be seen. She sputters out something incomprehensible even to her own understanding."
-
+    show astrid ashamed fluster talk
     a "...Your lips are drier than I expected."
-
+    show astrid ashamed fluster
     "?!??!!"
-
+    show jun idle fluster yell
     j "A-And yours are any better?"
-
-    a "It was just an observation."
-
+    show astrid idle fluster 
+    show jun idle fluster fuck
+    a "It was just an observation!"
+    show astrid ashamed fluster
+    show jun idle fluster yell
     j "Well observe something else!!!"
 
     j "Y-You know, a simple thank you would've sufficed!!!!"
-
+    show astrid ashamed fluster talk
+    show jun idle fluster fuck
     a "You're blushing."
-
+    show jun idle fluster yell
+    show astrid ashamed fluster 
     j "ANYONE WOULD BLUSH WHEN BEING KISSED, YOU MORON."
-
+    show astrid ashamed fluster talk
     a "But you hold no feelings for me that way."
-
+    show jun idle fluster talk1
+    show astrid ashamed fluster 
     j "That's not the-"
-
+    show jun idle fluster yell
     j "Ugh! "
-
+    show jun idle fluster talk1
     j "You are much more tolerable quiet. "
-
+    show jun idle fluster fuck
     "She rolls over dramatically."
-
+    show jun idle fluster talk2
     j "Go to bed, Astrid. I'll tell you in the morning."
-
+    show jun idle fluster fuck
     "The quiet settles in. "
+    scene black
+    "{cps=2} {/cps}.{cps=2} {/cps}.{cps=2} {/cps}."
 
-    "..."
 
     "A rustle, and then a barely audible phrase, echoed robotically at the end of a perceived transaction. Words said more to oneself than anyone else."
 
     a "...Good girl."
 
+    stop music fadeout 1.0
+    
     jump dream_two
 

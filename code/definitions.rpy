@@ -10,6 +10,11 @@ define cright = Position(xanchor=0.5, yanchor=1.0, xalign=0.7, yalign=0.75)
 define cleft = Position(xanchor=0.5, yanchor=1.0, xalign=0.2, yalign=0.75)
 define ccenter = Position(xanchor=0.5, yanchor=1.0, xalign=0.5, yalign=0.75)
 
+# Video Transitions
+image prolog_day1 = Movie(play="images/transitions/prologue-day1.webm", size=(1440,1080), loop=False, xalign=0.5, yalign=0.5)
+image day1_day2 = Movie(play="images/transitions/day1-day2.webm", size=(1440,1080), loop=False, xalign=0.5, yalign=0.5)
+image day2_day3 = Movie(play="images/transitions/day2-day3.webm", size=(1440,1080), loop=False, xalign=0.5, yalign=0.5)
+
 # Images
 ## Astrid
 image astrid idle neutral = "astrid/astrid_idle_neutral.png"
@@ -68,6 +73,9 @@ image jun idle2 idgaf = "jun/jun_idle2_idgaf.png"
 image jun idle2 poise = "jun/jun_idle2_poise.png"
 image jun expressive arrogant = "jun/jun_expressive_arrogant.png"
 image jun expressive evil = "jun/jun_expressive_evil.png"
+image jun idle bruh = "jun/jun_idle_donewithyoshit.png"
+image jun idle2 curious nomouth = "jun/jun_idle2_curious_nomouth.png"
+image jun idle fluster fuck = "jun/jun_idle_fluster_fuck.png"
 
 ## The Evil Scenes
 image astrid evil neutral = "astrid/astrid_evil_neutral.png"
@@ -77,3 +85,7 @@ image astrid evil bars yell = "astrid/astrid_evil_bars_yell.png"
 image jun evil neutral = "jun/jun_evil_neutral.png"
 image jun evil talk = "jun/jun_evil_talk.png"
 image jun evil quiver = "jun/jun_evil_quiver.png"
+
+# Epilogue booleans
+define persistent.epilogue = False
+define epilogue_origin = False

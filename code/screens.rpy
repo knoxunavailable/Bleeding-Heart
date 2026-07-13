@@ -390,21 +390,20 @@ screen main_menu():
                 action Start()
                 xpos 110
 
-        else:
+            if persistent.epilogue:
+                imagebutton:
+                    auto "mainUI/epilogue_%s.png"
+                    action [Start("epilogue")]
+                    xpos 110
+            imagebutton:
+                    auto "mainUI/load_%s.png"
+                    action ShowMenu("load")
+                    xpos 110
 
-            textbutton _("History") action ShowMenu("history")
-
-            textbutton _("Save") action ShowMenu("save")
-
-        imagebutton:
-                auto "mainUI/load_%s.png"
-                action ShowMenu("load")
-                xpos 110
-
-        imagebutton:
-                auto "mainUI/preference_%s.png"
-                action ShowMenu("preferences")
-                xpos 110
+            imagebutton:
+                    auto "mainUI/preference_%s.png"
+                    action ShowMenu("preferences")
+                    xpos 110
         if _in_replay:
 
             textbutton _("End Replay") action EndReplay(confirm=True)

@@ -1,4 +1,7 @@
 label day_three:
+    pause 1.0
+    show day2_day3
+    pause 4.0
 
     scene black
     with None
@@ -6,9 +9,13 @@ label day_three:
     scene bgdungeon
     with dissolve
 
+    play music "audio/bgm.mp3" fadein 2.0
+
     "When Astrid feeds her the next day, she doesn't ask about Jun's vow from last night. Instead, she busies herself with the mundane. "
 
-    "Jun's best conversations with Astrid before this were created by stoking her temper. There was only so much thinking and monologuing she could do all on her lonesome before she went insane. Astrid, while undoubtedly hostile, gave her the variety she needed."
+    "Jun's best conversations with Astrid before this were created by stoking her temper. There was only so much thinking and monologuing she could do all on her lonesome before she went insane."
+
+    "Astrid, while undoubtedly hostile, gave her the variety she needed."
 
     "Whatever favor she had earned last night had transformed Astrid entirely, with her curiosity focusing less and less on what Jun was, but rather who. "
 
@@ -271,10 +278,14 @@ label day_three:
     
     "She looks forward to Astrid's return, and prays her punishment isn't too severe."
 
+    stop music fadeout 1.0
+
     "{cps=2} {/cps}.{cps=2} {/cps}.{cps=2} {/cps}."
 
     "She dreams again of wandering hands and thatch-roofed cottages. "
 
+    play music "sacrifice.mp3" fadein 1.0
+    
     "Jun gets her wish soon enough, the door creaking open to signal Astrid's return."
     
     "It's late enough that any discussion she wanted to have would surely eat into her resting hours, but she figures she can make up for that just fine with some naps in the morning."
@@ -379,11 +390,14 @@ label day_three:
 
     "She is sure that Astrid would have done more, if not for the sound of the bells ringing. "
 
-    scene black 
+    scene black
+    stop music fadeout 1.0
 
     a "...Come on. The Highmother awaits."
 
 label day_three_cont:
+
+    play music "haul_ass_bro.mp3" fadein 3.0
 
     scene day3_3
 
@@ -418,8 +432,10 @@ label day_three_cont:
 
     "Lifting her head while caressing her cheek with her thumb, she coos, softened now that Jun's hysterics had dwindled to a solemn resignation."
 
+    stop music fadeout 5.0
     a "...It's alright, Jun. "
 
+    play music "jun_and_astrid.mp3" fadein 2.0
     scene day3_6
 
     a "You don't need to fear it. I'll be there with you. "
@@ -446,7 +462,7 @@ label day_three_cont:
 
     "If she had given in sooner, would she have found the love she had always wanted?"
 
-    a "You won't have to fight so hard anymore. I'll love you, Jun~"
+    a "You won't have to fight so hard anymore. I'll love you, Jun."
 
     "Maybe in death she would reach a serenity she had seldom allowed herself in life."
 
@@ -456,6 +472,8 @@ label day_three_cont:
 
     scene day3_9
 
+    stop music
+    play sound "glass_sfx.mp3" noloop
     a "We both will be worth the Highmother's love soon enough."
 
     ".."
@@ -532,11 +550,8 @@ label day_three_cont:
 
     j "I hope you can choose to be free."
 
+    scene black
     j "Goodbye, Astrid."
 
-    scene black 
-
-    # next part is astrid sacrifice
-
-    return #THIS IS TEMPORARY SO THE GAME DOESN'T CRASH
+    jump sacrifice
 
