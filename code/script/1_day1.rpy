@@ -36,11 +36,10 @@
 
     "Her ears perk up as the warden speaks for the first time today, voice gruff, unyielding, and with a simple message."
 
-    show astrid idle neutral at right
-    show junyue idle at left
+    show astrid idle neutral at topright
+    show jun idle neutral at cleft
     y @ talk "Here." 
 
-    show astrid neutral
     "Thrown haphazardly between the bars, a small, mangy rat twitched and squirmed on the floor. Like her, it was fighting to survive, legs frantically scurrying in the air in an attempt to prop itself upright." 
 
     y @ talk "Your meal for the day. Eat up."
